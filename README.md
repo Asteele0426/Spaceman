@@ -20,7 +20,6 @@ Spaceman Game
 - After gameplay
     - a 'Play Again' button will be displayed
 
-
 ## PseudoCode
 
 - 1. Define required constants
@@ -83,3 +82,12 @@ Spaceman Game
     ![Wireframe 3](https://i.imgur.com/ala3wGT.jpg)
     ![Wireframe 4](https://i.imgur.com/2keT14Y.jpg)
     ![Wireframe 5](https://i.imgur.com/gBmXNjH.jpg)
+
+    ## Technologies Used
+    - HTML
+    - CSS
+    - Javascript
+
+## Icebox Items
+    - Timer
+    - Create difficulty settings
