@@ -1,6 +1,6 @@
 /*----- constants -----*/
 
-let wordList = ['bread', 'green', 'crate', 'plant', 'quiet' ]
+let wordList = ['BREAD', 'GREEN', 'CRATE', 'PLANT', 'QUIET' ]
 let pickWordIndex = Math.floor(Math.random() * wordList.length)
 let gameWord = wordList[pickWordIndex]
 let wrongGuess = 5
@@ -13,6 +13,13 @@ console.log(gameWord)
 let totalGuessArray = []
 let correctGuessArray = ['', '', '', '', '']
 
+let winningWord
+
+//create an array for the purpose of checking to see if a guess is in the gameWord array
+let gameWordArray = []
+for(let i = 0; i <gameWord.length; i++){
+    gameWordArray[i] = gameWord[i]
+}
 /*----- cached elements  -----*/
 
 const startButton = document.querySelector('button')
@@ -25,11 +32,24 @@ const letterBoard = document.getElementById('board')
 /*----- event listeners -----*/
 
 const letters = document.querySelectorAll(".flex-ctr")
+
+
+
 console.log(letters)
 
 letterBoard.addEventListener("click",function(event) {
-console.log(event.target.innerHTML)
+    if (totalGuessArray.includes(event.target.innerHTML) === true) {
+        alert("You have already guessed this letter")
+    } else {
+        if(gameWord.includes(event.target.innerHTML) === true) {
+            alert("Good Guess!")
+        }
+        totalGuessArray.push(event.target.innerHTML)
+        console.log(event.target.innerHTML)
+        console.log(totalGuessArray)
+    } 
 })
+
 
 /*----- functions -----*/
 
