@@ -12,11 +12,11 @@ h1 {
 body {
     background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/08800aef-a1c3-4ac3-be7e-032bd085f169/d7pgwmn-d7b8b5ca-c2bb-4440-991c-91f159471152.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA4ODAwYWVmLWExYzMtNGFjMy1iZTdlLTAzMmJkMDg1ZjE2OVwvZDdwZ3dtbi1kN2I4YjVjYS1jMmJiLTQ0NDAtOTkxYy05MWYxNTk0NzExNTIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.8FobvtrHalGQXQ2W_ci2R-Rz2FJ5CuxDSDju0p1rCiQ")
 }
-button {
-    width: 100vw;
-    display: flex;
+ button {
+    /* width: 100vw;*/
+    display: flex; 
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 #board {
