@@ -16,7 +16,6 @@ for (let i = 0; i < gameWord.length; i++) {
 }
 /*----- cached elements  -----*/
 
-const startButton = document.querySelector('button')
 const answerBoard = document.querySelectorAll('.box')
 const letterBoard = document.getElementById('board')
 const messageLabel = document.querySelector('#mainMessage')
@@ -30,6 +29,7 @@ document.getElementById("restart").style.display = "none"
 const letters = document.querySelectorAll(".flex-ctr")
 
 letterBoard.addEventListener("click", function (event) {
+   if (event.target.id != "board") {
     if (totalGuessArray.includes(event.target.innerHTML) === true) {
         messageLabel.textContent = "You have already guessed this letter"
 
@@ -62,4 +62,5 @@ letterBoard.addEventListener("click", function (event) {
 
         }
     }
+}
 })
