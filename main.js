@@ -45,7 +45,7 @@ letterBoard.addEventListener("click",function(event) {
     } else {
 
         
-        
+    
         totalGuessArray.push(event.target.innerHTML)
         console.log(event.target.innerHTML)
         console.log(totalGuessArray)
