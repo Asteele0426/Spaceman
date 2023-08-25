@@ -11,6 +11,12 @@ Spaceman is a fun word guessing game that can be enjoyed by people of all ages. 
         - if not part of the word, it will show highlighted in the grid
     - The player gets 5 incorrect guesses before they lose the game
 
+    ![Start Screen](https://i.imgur.com/BkBQ08y.png)
+    ![Incorrect Guess](https://i.imgur.com/2FWaxhy.png)
+    ![Correct Guess](https://i.imgur.com/kv3jWwq.png)
+    ![You Lose! Play Again](https://i.imgur.com/5S6loAe.png)
+    ![You Win! Play Again](https://i.imgur.com/0ybH4TP.png)
+   
 ## Technologies Used
     - HTML
     - CSS
